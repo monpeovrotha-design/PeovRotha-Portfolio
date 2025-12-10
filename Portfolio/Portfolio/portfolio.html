@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon PeovRotha - Professional Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+    <header>
+        <h1>Mon PeovRotha</h1>
+        <p>Front-End Developer | Amateur Web Developer</p>
+
+        <div class="contact">
+            <p>
+                Email: <a href="mailto:mon peovrotha@gmail.com">mon peovrotha@gmail.com</a> &nbsp;|&nbsp;
+                Phone: +123 456 7890 &nbsp;|&nbsp;
+                Location: Your City, Country
+            </p>
+            <p>
+                <a href="https://github.com" target="_blank">GitHub</a> &nbsp;|&nbsp;
+                <a href="#" target="_blank">Portfolio Website</a>
+            </p>
+        </div>
+    </header>
+
+    <!-- TABS (RADIO BUTTON NAVIGATION) -->
+    <nav>
+        <input type="radio" id="tab-about" name="tabs" checked />
+        <label for="tab-about">About</label>
+
+        <input type="radio" id="tab-skills" name="tabs" />
+        <label for="tab-skills">Skills</label>
+
+        <input type="radio" id="tab-experience" name="tabs" />
+        <label for="tab-experience">Experience</label>
+
+        <input type="radio" id="tab-projects" name="tabs" />
+        <label for="tab-projects">Projects</label>
+
+        <input type="radio" id="tab-education" name="tabs" />
+        <label for="tab-education">Education</label>
+    </nav>
+
+    <!-- MAIN CONTENT SECTIONS -->
+    <main>
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am amateur Front-End Developer with a basicfoundation in modern web technologies. 
+                I specialize in creating responsive, user-friendly interfaces that combine aesthetic design 
+                with functional excellence. My approach focuses on writing clean, maintainable code and 
+                delivering solutions that meet both user needs and business objectives.
+            </p>
+            <p>
+                I am seeking opportunities to contribute to innovative projects and grow within 
+                a collaborative development environment. I thrive on challenges and am committed to 
+                continuous learning and professional development.
+            </p>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Front-End Technologies:</strong> HTML5, CSS3, JavaScript (ES6+), TypeScript, Bootstrap</li>
+                <li><strong>Development Tools:</strong> Git, GitHub, VS Code, npm,</li>
+                <li><strong>Soft Skills:</strong> Communication, Team Collaboration, Problem Solving, Time Management</li>
+                <li><strong>Methodologies:</strong> Version Control, Code Review, Testing</li>
+            </ul>
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <div class="job">
+                <h3>Junior Front-End Developer – Tech Solutions Inc.</h3>
+                <p class="date">January 2023 – Present | Remote</p>
+                <ul>
+                    <li>Developed and maintained responsive web applications using React and TypeScript, improving user engagement by 25%.</li>
+                    <li>Collaborated with design and backend teams to implement pixel-perfect UI components from Figma mockups.</li>
+                    <li>Optimized website performance, reducing load times by 30% through code splitting and lazy loading techniques.</li>
+                    <li>Participated in daily stand-ups and sprint planning, contributing to agile development processes.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Web Development Intern – Digital Agency</h3>
+                <p class="date">June 2022 – December 2022 | City, Country</p>
+                <ul>
+                    <li>Assisted in building client websites using HTML, CSS, and JavaScript, ensuring cross-browser compatibility.</li>
+                    <li>Learned and applied modern CSS frameworks and preprocessors to streamline development workflow.</li>
+                    <li>Contributed to code reviews and documentation, improving team knowledge sharing.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROJECTS (INTERACTIVE CARDS) -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/800x400/001f3f/ffffff?text=Responsive+Portfolio+Website" alt="Portfolio Website Screenshot" />
+                <h3>Responsive CV & Portfolio Website</h3>
+                <p>A professional, interactive portfolio website featuring tabbed navigation, smooth animations, and fully responsive design.</p>
+
+                <div class="details">
+                    <p><strong>Tech Stack:</strong> HTML5, CSS3, JavaScript</p>
+                    <p>
+                        Built a modern portfolio website with interactive tab navigation, hover effects, and mobile-first responsive design. 
+                        Implemented clean, semantic HTML and CSS animations for a polished user experience.
+                    </p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/800x400/001f3f/ffffff?text=Task+Manager+App" alt="Task Manager Screenshot" />
+                <h3>Task Manager Web Application</h3>
+                <p>A feature-rich task management application with add, edit, delete, and filter functionality.</p>
+                <div class="details">
+                    <p><strong>Tech Stack:</strong> React, TypeScript, LocalStorage API</p>
+                    <p>
+                        Developed a fully functional task manager with state management, local data persistence, and intuitive UI. 
+                        Implemented filtering, sorting, and priority features to enhance productivity.
+                    </p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/800x400/001f3f/ffffff?text=Weather+Dashboard" alt="Weather Dashboard Screenshot" />
+                <h3>Weather Dashboard</h3>
+                <p>An interactive weather application that displays current conditions and forecasts using a weather API.</p>
+                <div class="details">
+                    <p><strong>Tech Stack:</strong> JavaScript, Fetch API, OpenWeatherMap API, CSS Grid</p>
+                    <p>
+                        Created a responsive weather dashboard with real-time data integration, dynamic UI updates, and error handling. 
+                        Features include location search, temperature conversion, and 5-day forecast display.
+                    </p>
+                    <a href="#" target="_blank">View Live</a>
+                    <a href="#" target="_blank">View Code</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <div class="education-item">
+                <h3>Bachelor of Science in Computer Science</h3>
+                <p class="date">University Name – 2022</p>
+                <p>
+                    Relevant coursework: Web Development, Data Structures, Algorithms, Database Systems, Software Engineering. 
+                    Graduated with honors (GPA: 3.8/4.0).
+                </p>
+            </div>
+
+            <div class="education-item">
+                <h3>Full Stack Web Development Bootcamp</h3>
+                <p class="date">Online Platform – 2023</p>
+                <p>
+                    Intensive 6-month program covering HTML, CSS, JavaScript, React, Node.js, and MongoDB. 
+                    Completed multiple projects and collaborated on team assignments.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Mon PeovRotha. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
